@@ -17,7 +17,9 @@
     <div class="row">
         <div class="col-md-10">
             <div class="panel panel-default">
-                <div class="panel-heading"><b>Charts</b></div>
+                <div class="panel-heading">
+                    <center><b>Statistik Visitor</b></center>
+                </div>
                 <div class="panel-body">
                     <canvas id="canvas" width="100" height="400" aria-label="Hello ARIA World" role="img"></canvas>
                 </div>
@@ -31,7 +33,7 @@
 
         <script>
         const ctx = document.getElementById('canvas').getContext('2d');
-        var url = 'http://localhost:3001/statistik'
+        var url = 'http://localhost:3001/api/v1/statistik'
         let newData = []
         $(document).ready(() => {
             $.get(url, (response) => {
