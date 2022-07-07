@@ -14,7 +14,7 @@ Install terlebih dahulu package yang akan digunakan dengan perintah `composer in
 
 ### `3. Jalankan Aplikasi`
 
-Setelah package selesai terinstall, jalankan perintah `php artisan serve ` untuk menjalankan program. Sebelum menjalankan aplikasi calculator, Service API harus di jalankan terlebih dahulu. File ada di sini [API](https://github.com/adam034/lnk-api)
+Setelah package selesai terinstall, jalankan perintah `php artisan serve ` untuk menjalankan program. Sebelum menjalankan aplikasi, Service API harus di jalankan terlebih dahulu. File ada di sini [API](https://github.com/adam034/lnk-api)
 
 ### `4 Akses Aplikasi`
 
